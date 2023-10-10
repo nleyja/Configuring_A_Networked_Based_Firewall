@@ -1,4 +1,4 @@
-# Configuring_a_Networked_Based_Firewall
+# Configuring_A_Networked_Based_Firewall
 
 Conduct network security practices using the pfSense VM.
 
