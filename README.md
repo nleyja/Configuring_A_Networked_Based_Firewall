@@ -52,7 +52,7 @@ Configuring ICMP on the Firewall: Summary
 1. Port Scanning:
 - On Kali system, scan firewall appliance for open ports: nmap 203.0.113.1.
 2. SSH Configuration Verification:
-- SSH into 203.0.113.1 (password: securepassword) to confirm SSH access.
+- SSH into 203.0.113.1 to confirm SSH access.
 - Verify open ports, confirming SSH accessibility.
 3. Network Verification:
 - On Ubuntu, check network configuration: ifconfig and default gateway: route.
@@ -94,7 +94,7 @@ Configuring ICMP on the Firewall: Summary
 - Access pfSense webConfigurator, navigate to VPN > OpenVPN.
 2. Client Export Configuration:
 - Verify server settings: Remote Access Server, Host Name Resolution, Very Server CN, Use Random Local Port.
-- Enable password protection for the pkcs12 file, using 'bpassx' as the password.
+- Enable password protection for the pkcs12 file.
 3. Export Client Package:
 - Scroll down to the Client Install Packages table.
 - Click on the "Archive" link for Standard Configurations under the Export column.
@@ -117,7 +117,7 @@ Configuring ICMP on the Firewall: Summary
 - Set Gateway to 192.168.1.1.
 - Authentication Type: Password with Certificate (TLS).
 - User name: student.
-- Password: bpassx.
+- Password: 
 - Verify certificates and private key entries.
 - Save configurations as per the provided image.
 4. Completion:
